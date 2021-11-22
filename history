@@ -1,0 +1,20 @@
+exit
+replay -command ls -interval 4 -period 12 &
+exit
+cat signal.c | wc > b.txt
+echo hiii
+hii
+cat < fg.c | wc -l > test.txt
+exit
+cd S Shell
+clear
+cd ~
+replay -command cd 	.. -interval 2 -period 4
+cd
+replay -command cd 	.. -interval 2 period 4
+replay -command cd .. -interval 2 -period 4
+cd
+clear
+exit
+clear
+cd ~
